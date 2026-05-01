@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF087",
+  "submission_date": "2021-02-15",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Crown Energy Nigeria",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Manufacturing",
+    "registration_number": "RC-955009",
+    "year_founded": 2008
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Management Accounts",
+    "revenue": 17887000,
+    "cost_of_sales": 9349784,
+    "gross_profit": 8537216,
+    "operating_expenses": 11208333,
+    "ebitda": -2671117,
+    "finance_costs": 777628,
+    "profit_before_tax": -3448745,
+    "total_debt": 15568516,
+    "total_equity": 5830905
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": null,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 72.7,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "audited_financials_2020.pdf",
+    "prior_year_accounts_ref": "annual_report_2019.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 12,
+    "submission_anomaly": false
+  }
+}

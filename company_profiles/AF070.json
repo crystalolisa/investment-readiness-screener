@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF070",
+  "submission_date": "2021-01-21",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Lusaka Financial",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Healthcare",
+    "registration_number": "RC-293259",
+    "year_founded": 2020
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 22857000,
+    "cost_of_sales": 16422615,
+    "gross_profit": 6434385,
+    "operating_expenses": 7990164,
+    "ebitda": -1555779,
+    "finance_costs": 1144837,
+    "profit_before_tax": -2700616,
+    "total_debt": 17190473,
+    "total_equity": 12828711
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2020. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2020.pdf",
+    "balance_sheet_ref": "audited_financials_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 0,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF009",
+  "submission_date": "2021-01-20",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Atlas Manufacturing Co",
+    "country": "Tanzania",
+    "reporting_currency": "TZS",
+    "fx_rate_to_usd": 2500,
+    "sector": "Logistics",
+    "registration_number": "RC-570587",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 4510000000,
+    "cost_of_sales": 1896711386,
+    "gross_profit": 2613288614,
+    "operating_expenses": 1308088544,
+    "ebitda": 1305200070,
+    "finance_costs": 494481633,
+    "profit_before_tax": 810718437,
+    "total_debt": 1733778749,
+    "total_equity": 2140467591
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 77.4,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2020.pdf",
+    "balance_sheet_ref": "audited_financials_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 3,
+    "submission_anomaly": false
+  }
+}

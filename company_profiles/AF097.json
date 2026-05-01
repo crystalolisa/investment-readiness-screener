@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF097",
+  "submission_date": "2020-01-07",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Moja Healthcare",
+    "country": "Senegal",
+    "reporting_currency": "XOF",
+    "fx_rate_to_usd": 600,
+    "sector": "Agribusiness",
+    "registration_number": "RC-744318",
+    "year_founded": 2009
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 308400000,
+    "cost_of_sales": 221007813,
+    "gross_profit": 87392187,
+    "operating_expenses": 103287112,
+    "ebitda": -15894925,
+    "finance_costs": 13352824,
+    "profit_before_tax": -29247749,
+    "total_debt": 792656190,
+    "total_equity": 201181774
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 353264605,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 95.1,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

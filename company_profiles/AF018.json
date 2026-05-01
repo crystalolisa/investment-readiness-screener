@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF018",
+  "submission_date": "2021-05-23",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Jua Kali Manufacturing",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Healthcare",
+    "registration_number": "RC-494366",
+    "year_founded": 2009
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Unaudited",
+    "revenue": 20770000,
+    "cost_of_sales": 13852702,
+    "gross_profit": 6917298,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 1378642,
+    "profit_before_tax": -2989258,
+    "total_debt": null,
+    "total_equity": 8130063
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 27150327,
+    "audit_status": "Unaudited"
+  },
+  "data_quality": {
+    "completeness_score": 39.1,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2020.pdf",
+    "balance_sheet_ref": "company_documents_2020.pdf",
+    "prior_year_accounts_ref": "company_documents_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 11,
+    "submission_anomaly": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "submission_id": "AF098",
+  "submission_date": "2020-05-15",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Nova Agri Solutions",
+    "country": "Nigeria",
+    "reporting_currency": "NGN",
+    "fx_rate_to_usd": 1550,
+    "sector": "Retail",
+    "registration_number": "RC-734965",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Management Accounts",
+    "revenue": 4787950000,
+    "cost_of_sales": 2514347159,
+    "gross_profit": 2273602841,
+    "operating_expenses": 965976569,
+    "ebitda": 1307626272,
+    "finance_costs": 320104152,
+    "profit_before_tax": 987522120,
+    "total_debt": null,
+    "total_equity": 3506236938
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 3996619366,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 57.8,
+    "missing_fields": [
+      "total_debt",
+      "total_equity"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: total_debt, total_equity. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "annual_report_2018.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 4,
+    "submission_anomaly": false
+  }
+}

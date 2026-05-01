@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF013",
+  "submission_date": "2022-04-09",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Ember Energy Africa",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Manufacturing",
+    "registration_number": "RC-920260",
+    "year_founded": 2011
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 19836000,
+    "cost_of_sales": 14590201,
+    "gross_profit": 5245799,
+    "operating_expenses": 10812264,
+    "ebitda": -5566465,
+    "finance_costs": 957843,
+    "profit_before_tax": -6524308,
+    "total_debt": 30827926,
+    "total_equity": 7844256
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 22312711,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 92.3,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2021.pdf",
+    "balance_sheet_ref": "audited_accounts_2021.pdf",
+    "prior_year_accounts_ref": "annual_report_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

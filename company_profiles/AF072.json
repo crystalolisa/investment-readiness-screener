@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF072",
+  "submission_date": "2020-05-11",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Northern Agri Holdings",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Healthcare",
+    "registration_number": "RC-853019",
+    "year_founded": 2011
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 775000000,
+    "cost_of_sales": 333126241,
+    "gross_profit": 441873759,
+    "operating_expenses": 284800190,
+    "ebitda": 157073569,
+    "finance_costs": 115328014,
+    "profit_before_tax": 41745555,
+    "total_debt": 1007537535,
+    "total_equity": 257682234
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 746628131,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 97.6,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 8,
+    "submission_anomaly": false
+  }
+}

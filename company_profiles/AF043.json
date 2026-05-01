@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF043",
+  "submission_date": "2022-01-23",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Indigo Logistics",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Manufacturing",
+    "registration_number": "RC-623138",
+    "year_founded": 2016
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Management Accounts",
+    "revenue": 28861000,
+    "cost_of_sales": 11560242,
+    "gross_profit": 17300758,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 2983068,
+    "profit_before_tax": 5957783,
+    "total_debt": null,
+    "total_equity": 8734782
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 24667521,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 34.7,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 5,
+    "submission_anomaly": false
+  }
+}

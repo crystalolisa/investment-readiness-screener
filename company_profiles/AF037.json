@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF037",
+  "submission_date": "2021-01-10",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Crater Lake Energy",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Healthcare",
+    "registration_number": "RC-610736",
+    "year_founded": 2006
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 46569000,
+    "cost_of_sales": 26816240,
+    "gross_profit": 19752760,
+    "operating_expenses": 14392628,
+    "ebitda": 5360132,
+    "finance_costs": 2934051,
+    "profit_before_tax": 2426081,
+    "total_debt": 49986330,
+    "total_equity": 21923829
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 66.5,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 14,
+    "submission_anomaly": false
+  }
+}

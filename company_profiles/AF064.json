@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF064",
+  "submission_date": "2022-04-17",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Frontline Capital",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Energy",
+    "registration_number": "RC-517978",
+    "year_founded": 2012
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 250059000,
+    "cost_of_sales": 117695301,
+    "gross_profit": 132363699,
+    "operating_expenses": 93529893,
+    "ebitda": 38833806,
+    "finance_costs": 13715771,
+    "profit_before_tax": 25118035,
+    "total_debt": 360010710,
+    "total_equity": 108764565
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 59.1,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2021.pdf",
+    "balance_sheet_ref": "financial_statements_2021.pdf",
+    "prior_year_accounts_ref": "annual_report_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 9,
+    "submission_anomaly": false
+  }
+}

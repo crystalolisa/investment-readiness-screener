@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF003",
+  "submission_date": "2020-03-07",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Meridian Agri Holdings",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Logistics",
+    "registration_number": "RC-222096",
+    "year_founded": 2013
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Management Accounts",
+    "revenue": 17267000,
+    "cost_of_sales": 14195783,
+    "gross_profit": 3071217,
+    "operating_expenses": 7789219,
+    "ebitda": -4718002,
+    "finance_costs": 1716038,
+    "profit_before_tax": -6434040,
+    "total_debt": 47286802,
+    "total_equity": 13320226
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": null,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 72.4,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2019.pdf",
+    "balance_sheet_ref": "company_documents_2019.pdf",
+    "prior_year_accounts_ref": "company_documents_2019.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 6,
+    "submission_anomaly": true
+  }
+}

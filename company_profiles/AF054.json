@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF054",
+  "submission_date": "2022-02-27",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Virunga Logistics",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Agribusiness",
+    "registration_number": "RC-944193",
+    "year_founded": 2008
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Unaudited",
+    "revenue": 3963600000,
+    "cost_of_sales": 1821322147,
+    "gross_profit": 2142277853,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 235448021,
+    "profit_before_tax": 843350717,
+    "total_debt": null,
+    "total_equity": 2019306456
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 4243683084,
+    "audit_status": "Unaudited"
+  },
+  "data_quality": {
+    "completeness_score": 30.9,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "annual_report_2020.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 13,
+    "submission_anomaly": false
+  }
+}

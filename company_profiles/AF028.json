@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF028",
+  "submission_date": "2022-03-13",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Tanganyika Capital",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Agribusiness",
+    "registration_number": "RC-629036",
+    "year_founded": 2020
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 30690000,
+    "cost_of_sales": 24033616,
+    "gross_profit": 6656384,
+    "operating_expenses": 8584130,
+    "ebitda": -1927746,
+    "finance_costs": 1624357,
+    "profit_before_tax": -3552103,
+    "total_debt": 43788725,
+    "total_equity": 20655059
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2020. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "financial_statements_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 1,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF091",
+  "submission_date": "2020-03-09",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Grand Agri Partners",
+    "country": "Uganda",
+    "reporting_currency": "UGX",
+    "fx_rate_to_usd": 3750,
+    "sector": "Agribusiness",
+    "registration_number": "RC-696387",
+    "year_founded": 2018
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 5542500000,
+    "cost_of_sales": 3624791218,
+    "gross_profit": 1917708782,
+    "operating_expenses": 2595862074,
+    "ebitda": -678153292,
+    "finance_costs": 770835409,
+    "profit_before_tax": -1448988701,
+    "total_debt": 3766359001,
+    "total_equity": 2429909033
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2018. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2018.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 1,
+    "submission_anomaly": false
+  }
+}

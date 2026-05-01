@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF027",
+  "submission_date": "2020-05-06",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Sahel Manufacturing",
+    "country": "Kenya",
+    "reporting_currency": "KES",
+    "fx_rate_to_usd": 130,
+    "sector": "Healthcare",
+    "registration_number": "RC-389106",
+    "year_founded": 2009
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 384280000,
+    "cost_of_sales": 148885476,
+    "gross_profit": 235394524,
+    "operating_expenses": 143391129,
+    "ebitda": 92003395,
+    "finance_costs": 57050254,
+    "profit_before_tax": 34953141,
+    "total_debt": 737183572,
+    "total_equity": 187578517
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 401546499,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 96.7,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2019.pdf",
+    "balance_sheet_ref": "financial_statements_2019.pdf",
+    "prior_year_accounts_ref": "annual_report_2018.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF069",
+  "submission_date": "2020-01-13",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Kinshasa Manufacturing",
+    "country": "Uganda",
+    "reporting_currency": "UGX",
+    "fx_rate_to_usd": 3750,
+    "sector": "Fintech",
+    "registration_number": "RC-782705",
+    "year_founded": 2016
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 6112500000,
+    "cost_of_sales": 3993957042,
+    "gross_profit": 2118542958,
+    "operating_expenses": 1553480462,
+    "ebitda": 565062496,
+    "finance_costs": null,
+    "profit_before_tax": null,
+    "total_debt": 4732409836,
+    "total_equity": 4507056987
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 5905797101,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 78.5,
+    "missing_fields": [
+      "finance_costs"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: finance_costs. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2019.pdf",
+    "balance_sheet_ref": "financial_statements_2019.pdf",
+    "prior_year_accounts_ref": "annual_report_2018.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 3,
+    "submission_anomaly": false
+  }
+}

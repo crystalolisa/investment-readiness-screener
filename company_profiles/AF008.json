@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF008",
+  "submission_date": "2021-03-19",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Serengeti Retail Group",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Energy",
+    "registration_number": "RC-242483",
+    "year_founded": 2011
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Unaudited",
+    "revenue": 3933000,
+    "cost_of_sales": 3038844,
+    "gross_profit": 894156,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 216816,
+    "profit_before_tax": -1423600,
+    "total_debt": null,
+    "total_equity": 1403046
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 4256494,
+    "audit_status": "Unaudited"
+  },
+  "data_quality": {
+    "completeness_score": 46.3,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2020.pdf",
+    "balance_sheet_ref": "company_documents_2020.pdf",
+    "prior_year_accounts_ref": "accounts_2019.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 9,
+    "submission_anomaly": true
+  }
+}

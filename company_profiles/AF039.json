@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF039",
+  "submission_date": "2022-01-26",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Equator Healthcare",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Healthcare",
+    "registration_number": "RC-503704",
+    "year_founded": 2010
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 163556000,
+    "cost_of_sales": 84820872,
+    "gross_profit": 78735128,
+    "operating_expenses": 48910960,
+    "ebitda": 29824168,
+    "finance_costs": null,
+    "profit_before_tax": null,
+    "total_debt": 235109414,
+    "total_equity": 55978432
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 167064351,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 79.7,
+    "missing_fields": [
+      "finance_costs"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: finance_costs. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2021.pdf",
+    "balance_sheet_ref": "audited_accounts_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 11,
+    "submission_anomaly": false
+  }
+}

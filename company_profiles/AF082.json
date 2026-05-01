@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF082",
+  "submission_date": "2021-04-24",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Xanadu Manufacturing",
+    "country": "Ghana",
+    "reporting_currency": "GHS",
+    "fx_rate_to_usd": 12,
+    "sector": "Fintech",
+    "registration_number": "RC-984315",
+    "year_founded": 2020
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 22716000,
+    "cost_of_sales": 15312442,
+    "gross_profit": 7403558,
+    "operating_expenses": 9305189,
+    "ebitda": -1901631,
+    "finance_costs": 1902133,
+    "profit_before_tax": -3803764,
+    "total_debt": 21409073,
+    "total_equity": 17990818
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2020. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "annual_report_2019.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 0,
+    "submission_anomaly": false
+  }
+}

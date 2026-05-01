@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF055",
+  "submission_date": "2021-05-17",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Waterberg Holdings",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Agribusiness",
+    "registration_number": "RC-346726",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 15670800000,
+    "cost_of_sales": 8102981656,
+    "gross_profit": 7567818344,
+    "operating_expenses": 3267909758,
+    "ebitda": 4299908586,
+    "finance_costs": 2345231873,
+    "profit_before_tax": 1954676713,
+    "total_debt": 9834635753,
+    "total_equity": 9366319765
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 14054529148,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 96.2,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2020.pdf",
+    "balance_sheet_ref": "audited_accounts_2020.pdf",
+    "prior_year_accounts_ref": "annual_report_2019.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 3,
+    "submission_anomaly": false
+  }
+}

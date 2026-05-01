@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF095",
+  "submission_date": "2021-04-25",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Kente Manufacturing",
+    "country": "Nigeria",
+    "reporting_currency": "NGN",
+    "fx_rate_to_usd": 1550,
+    "sector": "Fintech",
+    "registration_number": "RC-398090",
+    "year_founded": 2013
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 1080350000,
+    "cost_of_sales": 533306063,
+    "gross_profit": 547043937,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 96259780,
+    "profit_before_tax": -225889175,
+    "total_debt": 1582763975,
+    "total_equity": 625598409
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 710756579,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 55.9,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2020.pdf",
+    "balance_sheet_ref": "audited_financials_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 7,
+    "submission_anomaly": false
+  }
+}

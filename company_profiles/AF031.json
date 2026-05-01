@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF031",
+  "submission_date": "2021-04-18",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Wangari Agri Ltd",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Agribusiness",
+    "registration_number": "RC-395451",
+    "year_founded": 2006
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 38399000,
+    "cost_of_sales": 19558601,
+    "gross_profit": 18840399,
+    "operating_expenses": 7803890,
+    "ebitda": 12321511,
+    "finance_costs": 2717650,
+    "profit_before_tax": 8318859,
+    "total_debt": 21245386,
+    "total_equity": 23092811
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 34102131,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 87.0,
+    "missing_fields": [],
+    "reviewer_notes": "Minor EBITDA reconciliation variance detected. Flagged for reviewer check."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "annual_report_2019.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 14,
+    "submission_anomaly": false
+  }
+}

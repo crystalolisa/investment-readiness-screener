@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF032",
+  "submission_date": "2022-01-02",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Xcel Logistics Africa",
+    "country": "Ghana",
+    "reporting_currency": "GHS",
+    "fx_rate_to_usd": 12,
+    "sector": "Healthcare",
+    "registration_number": "RC-578007",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Management Accounts",
+    "revenue": 12324000,
+    "cost_of_sales": 7613138,
+    "gross_profit": 4710862,
+    "operating_expenses": 4710139,
+    "ebitda": 723,
+    "finance_costs": null,
+    "profit_before_tax": null,
+    "total_debt": 19079171,
+    "total_equity": 6018666
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 13180749,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 64.8,
+    "missing_fields": [
+      "finance_costs"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: finance_costs. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2021.pdf",
+    "balance_sheet_ref": "company_documents_2021.pdf",
+    "prior_year_accounts_ref": "company_documents_2021.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 4,
+    "submission_anomaly": true
+  }
+}

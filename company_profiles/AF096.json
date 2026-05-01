@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF096",
+  "submission_date": "2021-05-01",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Lagos Fintech Corp",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Logistics",
+    "registration_number": "RC-270102",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Management Accounts",
+    "revenue": 54891000,
+    "cost_of_sales": 34952875,
+    "gross_profit": 19938125,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 2446657,
+    "profit_before_tax": -964528,
+    "total_debt": null,
+    "total_equity": 43545857
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 49675113,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 20.1,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2020.pdf",
+    "balance_sheet_ref": "financial_statements_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 5,
+    "submission_anomaly": false
+  }
+}

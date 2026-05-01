@@ -1,0 +1,54 @@
+{
+  "submission_id": "AF025",
+  "submission_date": "2020-04-14",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Quartz Energy Solutions",
+    "country": "Senegal",
+    "reporting_currency": "XOF",
+    "fx_rate_to_usd": 600,
+    "sector": "Energy",
+    "registration_number": "RC-151934",
+    "year_founded": 2013
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Management Accounts",
+    "revenue": 339600000,
+    "cost_of_sales": 258201580,
+    "gross_profit": 81398420,
+    "operating_expenses": 126773595,
+    "ebitda": -45375175,
+    "finance_costs": 25861593,
+    "profit_before_tax": -71236768,
+    "total_debt": null,
+    "total_equity": 229633195
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 373597360,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 74.7,
+    "missing_fields": [
+      "total_debt",
+      "total_equity"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: total_debt, total_equity. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2019.pdf",
+    "balance_sheet_ref": "company_documents_2019.pdf",
+    "prior_year_accounts_ref": "accounts_2018.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 6,
+    "submission_anomaly": true
+  }
+}

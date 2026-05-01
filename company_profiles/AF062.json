@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF062",
+  "submission_date": "2021-02-17",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Dakar Logistics Hub",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Fintech",
+    "registration_number": "RC-328504",
+    "year_founded": 2019
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 31863000,
+    "cost_of_sales": 23517240,
+    "gross_profit": 8345760,
+    "operating_expenses": 8053340,
+    "ebitda": 292420,
+    "finance_costs": 1754295,
+    "profit_before_tax": -1461875,
+    "total_debt": 64573520,
+    "total_equity": 23481280
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2019. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2020.pdf",
+    "balance_sheet_ref": "financial_statements_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 1,
+    "submission_anomaly": false
+  }
+}

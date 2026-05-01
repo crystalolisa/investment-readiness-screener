@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF033",
+  "submission_date": "2020-03-01",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Yetu Fintech Solutions",
+    "country": "Nigeria",
+    "reporting_currency": "NGN",
+    "fx_rate_to_usd": 1550,
+    "sector": "Agribusiness",
+    "registration_number": "RC-100404",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 2701650000,
+    "cost_of_sales": 1502467797,
+    "gross_profit": 1199182203,
+    "operating_expenses": 1350634313,
+    "ebitda": -151452110,
+    "finance_costs": 404248030,
+    "profit_before_tax": -555700140,
+    "total_debt": 3495105983,
+    "total_equity": 1849262425
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2017. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 2,
+    "submission_anomaly": false
+  }
+}

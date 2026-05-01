@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF041",
+  "submission_date": "2020-05-10",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Garnet Agribusiness",
+    "country": "Ghana",
+    "reporting_currency": "GHS",
+    "fx_rate_to_usd": 12,
+    "sector": "Retail",
+    "registration_number": "RC-101062",
+    "year_founded": 2008
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 17412000,
+    "cost_of_sales": 10324147,
+    "gross_profit": 7087853,
+    "operating_expenses": 5043330,
+    "ebitda": 2044523,
+    "finance_costs": 1353295,
+    "profit_before_tax": 691228,
+    "total_debt": 16962882,
+    "total_equity": 8315138
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 67.0,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2019.pdf",
+    "balance_sheet_ref": "financial_statements_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 11,
+    "submission_anomaly": false
+  }
+}

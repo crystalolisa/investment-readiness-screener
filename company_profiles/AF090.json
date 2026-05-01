@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF090",
+  "submission_date": "2022-01-07",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Fola Healthcare Ltd",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Retail",
+    "registration_number": "RC-619984",
+    "year_founded": 2020
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 2310000000,
+    "cost_of_sales": 1559776195,
+    "gross_profit": 750223805,
+    "operating_expenses": 1066206656,
+    "ebitda": -315982851,
+    "finance_costs": 252169140,
+    "profit_before_tax": -568151991,
+    "total_debt": 3696547353,
+    "total_equity": 1579721091
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2020. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "audited_accounts_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 1,
+    "submission_anomaly": false
+  }
+}

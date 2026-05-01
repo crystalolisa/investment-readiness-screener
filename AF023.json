@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF023",
+  "submission_date": "2021-05-11",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Orbit Agribusiness",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Healthcare",
+    "registration_number": "RC-231484",
+    "year_founded": 2010
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 38874000,
+    "cost_of_sales": 23075338,
+    "gross_profit": 15798662,
+    "operating_expenses": 19217746,
+    "ebitda": -3419084,
+    "finance_costs": 4764694,
+    "profit_before_tax": -8183778,
+    "total_debt": 74504302,
+    "total_equity": 30914648
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 23111772,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 90.6,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "audited_accounts_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF057",
+  "submission_date": "2021-02-19",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Yellow River Retail",
+    "country": "Tanzania",
+    "reporting_currency": "TZS",
+    "fx_rate_to_usd": 2500,
+    "sector": "Energy",
+    "registration_number": "RC-962061",
+    "year_founded": 2016
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 5322500000,
+    "cost_of_sales": 3027275560,
+    "gross_profit": 2295224440,
+    "operating_expenses": 1445576219,
+    "ebitda": 905934455,
+    "finance_costs": 598683495,
+    "profit_before_tax": 250964726,
+    "total_debt": 743740961,
+    "total_equity": 2187473416
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 4825475975,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 95.1,
+    "missing_fields": [],
+    "reviewer_notes": "Minor EBITDA reconciliation variance detected. Flagged for reviewer check."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2020.pdf",
+    "balance_sheet_ref": "audited_accounts_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 4,
+    "submission_anomaly": false
+  }
+}

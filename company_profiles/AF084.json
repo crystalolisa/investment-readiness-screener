@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF084",
+  "submission_date": "2020-04-21",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Zenith Logistics Africa",
+    "country": "Tanzania",
+    "reporting_currency": "TZS",
+    "fx_rate_to_usd": 2500,
+    "sector": "Energy",
+    "registration_number": "RC-931291",
+    "year_founded": 2007
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 2480000000,
+    "cost_of_sales": 1373164914,
+    "gross_profit": 1106835086,
+    "operating_expenses": 1188731077,
+    "ebitda": -89669418,
+    "finance_costs": 133350684,
+    "profit_before_tax": -215246675,
+    "total_debt": 2772347103,
+    "total_equity": 1277579310
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 1477949940,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 92.4,
+    "missing_fields": [],
+    "reviewer_notes": "Minor EBITDA reconciliation variance detected. Flagged for reviewer check."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2019.pdf",
+    "balance_sheet_ref": "audited_financials_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 12,
+    "submission_anomaly": false
+  }
+}

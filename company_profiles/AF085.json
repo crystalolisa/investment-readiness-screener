@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF085",
+  "submission_date": "2022-05-17",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Afri Capital Holdings",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Agribusiness",
+    "registration_number": "RC-726759",
+    "year_founded": 2014
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Management Accounts",
+    "revenue": 89889000,
+    "cost_of_sales": 45305156,
+    "gross_profit": 44583844,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 6479458,
+    "profit_before_tax": 14733061,
+    "total_debt": 87936791,
+    "total_equity": 65624471
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 78919227,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 56.0,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "audited_accounts_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 7,
+    "submission_anomaly": false
+  }
+}

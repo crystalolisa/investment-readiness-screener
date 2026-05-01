@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF088",
+  "submission_date": "2022-03-07",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Delta Fintech Hub",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Manufacturing",
+    "registration_number": "RC-854122",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 48754000,
+    "cost_of_sales": 21609406,
+    "gross_profit": 27144594,
+    "operating_expenses": 12095399,
+    "ebitda": 15049195,
+    "finance_costs": 2168722,
+    "profit_before_tax": 12880473,
+    "total_debt": 13924970,
+    "total_equity": 25318128
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 69.8,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 6,
+    "submission_anomaly": false
+  }
+}

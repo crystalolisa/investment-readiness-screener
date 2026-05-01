@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF020",
+  "submission_date": "2020-04-01",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Lakeshore Financial",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Agribusiness",
+    "registration_number": "RC-418717",
+    "year_founded": 2012
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Management Accounts",
+    "revenue": 22692000,
+    "cost_of_sales": 11867491,
+    "gross_profit": 10824509,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 1842758,
+    "profit_before_tax": -1486659,
+    "total_debt": null,
+    "total_equity": 12516184
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 14453503,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 39.8,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "company_documents_2019.pdf",
+    "balance_sheet_ref": "company_documents_2019.pdf",
+    "prior_year_accounts_ref": "accounts_2018.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 7,
+    "submission_anomaly": true
+  }
+}

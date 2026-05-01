@@ -1,0 +1,54 @@
+{
+  "submission_id": "AF094",
+  "submission_date": "2022-01-08",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Jungle Capital Group",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Healthcare",
+    "registration_number": "RC-448619",
+    "year_founded": 2011
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 23199000,
+    "cost_of_sales": 18630309,
+    "gross_profit": 4568691,
+    "operating_expenses": 12084995,
+    "ebitda": -7516304,
+    "finance_costs": 2055958,
+    "profit_before_tax": -9572262,
+    "total_debt": null,
+    "total_equity": 12165295
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 28640741,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 58.6,
+    "missing_fields": [
+      "total_debt",
+      "total_equity"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: total_debt, total_equity. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "financial_statements_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

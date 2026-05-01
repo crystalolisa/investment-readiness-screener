@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF086",
+  "submission_date": "2020-04-20",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Bright Future Agri",
+    "country": "Senegal",
+    "reporting_currency": "XOF",
+    "fx_rate_to_usd": 600,
+    "sector": "Fintech",
+    "registration_number": "RC-397632",
+    "year_founded": 2007
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 774600000,
+    "cost_of_sales": 531001271,
+    "gross_profit": 243598729,
+    "operating_expenses": 264000082,
+    "ebitda": -20401353,
+    "finance_costs": 106181148,
+    "profit_before_tax": -126582501,
+    "total_debt": 651022862,
+    "total_equity": 551714290
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 699728997,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 89.8,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2019.pdf",
+    "balance_sheet_ref": "audited_accounts_2019.pdf",
+    "prior_year_accounts_ref": "annual_report_2018.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 12,
+    "submission_anomaly": false
+  }
+}

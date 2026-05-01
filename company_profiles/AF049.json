@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF049",
+  "submission_date": "2022-05-01",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Oasis Healthcare Ltd",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Logistics",
+    "registration_number": "RC-159379",
+    "year_founded": 2012
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 32333000,
+    "cost_of_sales": 17767610,
+    "gross_profit": 14565390,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 4062412,
+    "profit_before_tax": -1466268,
+    "total_debt": 17038738,
+    "total_equity": 13006670
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 28894549,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 67.3,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2021.pdf",
+    "balance_sheet_ref": "financial_statements_2021.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2020.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 9,
+    "submission_anomaly": false
+  }
+}

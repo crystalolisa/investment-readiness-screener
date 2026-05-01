@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF066",
+  "submission_date": "2022-03-17",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Highland Energy Co",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Logistics",
+    "registration_number": "RC-528988",
+    "year_founded": 2018
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Management Accounts",
+    "revenue": 51585000,
+    "cost_of_sales": 41937234,
+    "gross_profit": 9647766,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 7016800,
+    "profit_before_tax": -19833024,
+    "total_debt": 199895791,
+    "total_equity": 36278728
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 59843387,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 72.3,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2021.pdf",
+    "balance_sheet_ref": "annual_report_2021.pdf",
+    "prior_year_accounts_ref": "annual_report_2020.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 3,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF068",
+  "submission_date": "2021-04-07",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Jomo Capital Partners",
+    "country": "Tanzania",
+    "reporting_currency": "TZS",
+    "fx_rate_to_usd": 2500,
+    "sector": "Healthcare",
+    "registration_number": "RC-381570",
+    "year_founded": 2016
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 1300000000,
+    "cost_of_sales": 935956489,
+    "gross_profit": 364043511,
+    "operating_expenses": 508526606,
+    "ebitda": -144483095,
+    "finance_costs": null,
+    "profit_before_tax": null,
+    "total_debt": 4420840109,
+    "total_equity": 965248932
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 1425438596,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 66.0,
+    "missing_fields": [
+      "finance_costs"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: finance_costs. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 4,
+    "submission_anomaly": false
+  }
+}

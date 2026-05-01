@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF074",
+  "submission_date": "2021-02-17",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Palm Capital Group",
+    "country": "Egypt",
+    "reporting_currency": "EGP",
+    "fx_rate_to_usd": 31,
+    "sector": "Energy",
+    "registration_number": "RC-474999",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Management Accounts",
+    "revenue": 42811000,
+    "cost_of_sales": 28051329,
+    "gross_profit": 14759671,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 4504719,
+    "profit_before_tax": -4355828,
+    "total_debt": null,
+    "total_equity": 14801621
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 45159283,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 28.0,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "audited_accounts_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 5,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF078",
+  "submission_date": "2022-02-04",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Tamu Healthcare",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Manufacturing",
+    "registration_number": "RC-226209",
+    "year_founded": 2007
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 28671000,
+    "cost_of_sales": 15098568,
+    "gross_profit": 13572432,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 3139460,
+    "profit_before_tax": -9501875,
+    "total_debt": 23350917,
+    "total_equity": 17690089
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 20897230,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 74.5,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "audited_accounts_2021.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2020.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 14,
+    "submission_anomaly": false
+  }
+}

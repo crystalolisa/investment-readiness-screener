@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF077",
+  "submission_date": "2020-03-27",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Serval Logistics",
+    "country": "Uganda",
+    "reporting_currency": "UGX",
+    "fx_rate_to_usd": 3750,
+    "sector": "Energy",
+    "registration_number": "RC-576840",
+    "year_founded": 2006
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 993750000,
+    "cost_of_sales": 823652974,
+    "gross_profit": 170097026,
+    "operating_expenses": 471780511,
+    "ebitda": -334626361,
+    "finance_costs": 60434280,
+    "profit_before_tax": -362117765,
+    "total_debt": 4701217916,
+    "total_equity": 775778534
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 1009908537,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 98.2,
+    "missing_fields": [],
+    "reviewer_notes": "Minor EBITDA reconciliation variance detected. Flagged for reviewer check."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2019.pdf",
+    "balance_sheet_ref": "annual_report_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 13,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF007",
+  "submission_date": "2022-03-17",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Baobab Financial Services",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Retail",
+    "registration_number": "RC-911774",
+    "year_founded": 2013
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 13414000,
+    "cost_of_sales": 7019466,
+    "gross_profit": 6394534,
+    "operating_expenses": 7833020,
+    "ebitda": -1438486,
+    "finance_costs": 669786,
+    "profit_before_tax": -2108272,
+    "total_debt": 15253910,
+    "total_equity": 6175672
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 8495250,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 85.6,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2020.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 8,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF083",
+  "submission_date": "2021-02-03",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Yola Energy Partners",
+    "country": "Nigeria",
+    "reporting_currency": "NGN",
+    "fx_rate_to_usd": 1550,
+    "sector": "Agribusiness",
+    "registration_number": "RC-650719",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Audited",
+    "revenue": 7464800000,
+    "cost_of_sales": 2815187707,
+    "gross_profit": 4649612293,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 1093602733,
+    "profit_before_tax": 1230595310,
+    "total_debt": 14416316365,
+    "total_equity": 5481489112
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 7808368201,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 74.3,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "financial_statements_2019.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 3,
+    "submission_anomaly": false
+  }
+}

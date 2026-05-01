@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF067",
+  "submission_date": "2022-03-26",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Ibadan Tech Ventures",
+    "country": "Kenya",
+    "reporting_currency": "KES",
+    "fx_rate_to_usd": 130,
+    "sector": "Fintech",
+    "registration_number": "RC-452744",
+    "year_founded": 2009
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 268840000,
+    "cost_of_sales": 98113248,
+    "gross_profit": 170726752,
+    "operating_expenses": 73520964,
+    "ebitda": 97205788,
+    "finance_costs": 27549104,
+    "profit_before_tax": 69656684,
+    "total_debt": 367276728,
+    "total_equity": 85215018
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": null,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 62.4,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2021.pdf",
+    "balance_sheet_ref": "annual_report_2021.pdf",
+    "prior_year_accounts_ref": "financial_statements_2020.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "mature_pillar",
+    "years_operating": 12,
+    "submission_anomaly": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "submission_id": "AF076",
+  "submission_date": "2021-05-16",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Rift Energy Solutions",
+    "country": "Ethiopia",
+    "reporting_currency": "ETB",
+    "fx_rate_to_usd": 57,
+    "sector": "Agribusiness",
+    "registration_number": "RC-758380",
+    "year_founded": 2006
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Management Accounts",
+    "revenue": 46683000,
+    "cost_of_sales": 28055115,
+    "gross_profit": 18627885,
+    "operating_expenses": 15484738,
+    "ebitda": 3143147,
+    "finance_costs": 4909411,
+    "profit_before_tax": -1766264,
+    "total_debt": null,
+    "total_equity": 22123289
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": 42946642,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 69.1,
+    "missing_fields": [
+      "total_debt",
+      "total_equity"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: total_debt, total_equity. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "financial_statements_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2019.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 14,
+    "submission_anomaly": false
+  }
+}

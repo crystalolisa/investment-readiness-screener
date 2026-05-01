@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF038",
+  "submission_date": "2020-03-03",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Dune Manufacturing",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Logistics",
+    "registration_number": "RC-526650",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 1280400000,
+    "cost_of_sales": 685835854,
+    "gross_profit": 594564146,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 100176081,
+    "profit_before_tax": 99174620,
+    "total_debt": 786886069,
+    "total_equity": 735407541
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 1350632911,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 63.9,
+    "missing_fields": [
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: operating_expenses. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_financials_2019.pdf",
+    "balance_sheet_ref": "financial_statements_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "semi_qualified",
+    "years_operating": 4,
+    "submission_anomaly": false
+  }
+}

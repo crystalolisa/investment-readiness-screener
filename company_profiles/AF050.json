@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF050",
+  "submission_date": "2022-04-13",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Prism Capital Africa",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Healthcare",
+    "registration_number": "RC-302967",
+    "year_founded": 2015
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 2522400000,
+    "cost_of_sales": 1437809656,
+    "gross_profit": 1084590344,
+    "operating_expenses": 562306372,
+    "ebitda": 522283972,
+    "finance_costs": null,
+    "profit_before_tax": null,
+    "total_debt": 2160162845,
+    "total_equity": 1565335395
+  },
+  "prior_year_financials": {
+    "reporting_year": 2020,
+    "revenue": 2137627119,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 68.6,
+    "missing_fields": [
+      "finance_costs"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: finance_costs. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2020.pdf",
+    "registration_doc_ref": "company_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 6,
+    "submission_anomaly": false
+  }
+}

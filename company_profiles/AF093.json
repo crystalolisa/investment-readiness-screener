@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF093",
+  "submission_date": "2020-04-15",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Inno Tech Africa",
+    "country": "Rwanda",
+    "reporting_currency": "RWF",
+    "fx_rate_to_usd": 1200,
+    "sector": "Healthcare",
+    "registration_number": "RC-722605",
+    "year_founded": 2017
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 939600000,
+    "cost_of_sales": 584539014,
+    "gross_profit": 355060986,
+    "operating_expenses": 273311758,
+    "ebitda": 81749228,
+    "finance_costs": 78004623,
+    "profit_before_tax": 3744605,
+    "total_debt": 1177201174,
+    "total_equity": 403151087
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2017. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "financial_statements_2019.pdf",
+    "prior_year_accounts_ref": "financial_statements_2018.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 2,
+    "submission_anomaly": false
+  }
+}

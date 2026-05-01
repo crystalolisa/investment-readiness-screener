@@ -1,0 +1,51 @@
+{
+  "submission_id": "AF052",
+  "submission_date": "2020-05-08",
+  "submission_status": "Validated",
+  "company": {
+    "name": "Thorn Tree Energy",
+    "country": "South Africa",
+    "reporting_currency": "ZAR",
+    "fx_rate_to_usd": 19,
+    "sector": "Logistics",
+    "registration_number": "RC-100126",
+    "year_founded": 2007
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Audited",
+    "revenue": 76190000,
+    "cost_of_sales": 44663774,
+    "gross_profit": 31526226,
+    "operating_expenses": 15827109,
+    "ebitda": 15699117,
+    "finance_costs": 3921283,
+    "profit_before_tax": 11777834,
+    "total_debt": 89777362,
+    "total_equity": 57549591
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 67009675,
+    "audit_status": "Audited"
+  },
+  "data_quality": {
+    "completeness_score": 88.5,
+    "missing_fields": [],
+    "reviewer_notes": "All figures reconciled. EBITDA confirmed against audited accounts."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_accounts_2019.pdf",
+    "prior_year_accounts_ref": "audited_accounts_2018.pdf",
+    "registration_doc_ref": "business_registration.pdf"
+  },
+  "_meta": {
+    "archetype": "qualified_star",
+    "years_operating": 12,
+    "submission_anomaly": false
+  }
+}

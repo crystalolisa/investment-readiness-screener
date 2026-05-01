@@ -1,0 +1,47 @@
+{
+  "submission_id": "AF001",
+  "submission_date": "2022-03-01",
+  "submission_status": "Deferred",
+  "company": {
+    "name": "Abacus Capital Partners",
+    "country": "Ghana",
+    "reporting_currency": "GHS",
+    "fx_rate_to_usd": 12,
+    "sector": "Fintech",
+    "registration_number": "RC-112666",
+    "year_founded": 2021
+  },
+  "financials": {
+    "reporting_year": 2021,
+    "audit_status": "Audited",
+    "revenue": 22320000,
+    "cost_of_sales": 13496388,
+    "gross_profit": 8823612,
+    "operating_expenses": 10685475,
+    "ebitda": -1861863,
+    "finance_costs": 2979815,
+    "profit_before_tax": -4841678,
+    "total_debt": 12572459,
+    "total_equity": 7760777
+  },
+  "prior_year_financials": null,
+  "data_quality": {
+    "completeness_score": null,
+    "missing_fields": [],
+    "reviewer_notes": "Company incorporated in 2021. Insufficient operating history \u2014 minimum 3 years required. Resubmit when eligible."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2021.pdf",
+    "balance_sheet_ref": "audited_financials_2021.pdf",
+    "prior_year_accounts_ref": "annual_report_2020.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "deferred",
+    "years_operating": 0,
+    "submission_anomaly": false
+  }
+}

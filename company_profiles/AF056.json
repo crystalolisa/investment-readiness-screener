@@ -1,0 +1,53 @@
+{
+  "submission_id": "AF056",
+  "submission_date": "2021-05-17",
+  "submission_status": "Partial",
+  "company": {
+    "name": "Xenon Healthcare",
+    "country": "Ghana",
+    "reporting_currency": "GHS",
+    "fx_rate_to_usd": 12,
+    "sector": "Manufacturing",
+    "registration_number": "RC-841804",
+    "year_founded": 2010
+  },
+  "financials": {
+    "reporting_year": 2020,
+    "audit_status": "Management Accounts",
+    "revenue": 6948000,
+    "cost_of_sales": 4913543,
+    "gross_profit": 2034457,
+    "operating_expenses": 3000924,
+    "ebitda": -966467,
+    "finance_costs": 686394,
+    "profit_before_tax": -1652861,
+    "total_debt": 17454472,
+    "total_equity": 3811020
+  },
+  "prior_year_financials": {
+    "reporting_year": 2019,
+    "revenue": null,
+    "audit_status": "Management Accounts"
+  },
+  "data_quality": {
+    "completeness_score": 57.6,
+    "missing_fields": [
+      "prior_year_revenue"
+    ],
+    "reviewer_notes": "Submission incomplete. Missing: prior_year_revenue. Requested from company."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "audited_accounts_2020.pdf",
+    "balance_sheet_ref": "annual_report_2020.pdf",
+    "prior_year_accounts_ref": "annual_report_2019.pdf",
+    "registration_doc_ref": "cac_certificate.pdf"
+  },
+  "_meta": {
+    "archetype": "unqualified",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}

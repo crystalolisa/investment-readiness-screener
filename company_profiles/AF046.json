@@ -1,0 +1,55 @@
+{
+  "submission_id": "AF046",
+  "submission_date": "2020-05-09",
+  "submission_status": "Incomplete",
+  "company": {
+    "name": "Limpopo Manufacturing",
+    "country": "Kenya",
+    "reporting_currency": "KES",
+    "fx_rate_to_usd": 130,
+    "sector": "Logistics",
+    "registration_number": "RC-872042",
+    "year_founded": 2009
+  },
+  "financials": {
+    "reporting_year": 2019,
+    "audit_status": "Unaudited",
+    "revenue": 126750000,
+    "cost_of_sales": 79682674,
+    "gross_profit": 47067326,
+    "operating_expenses": null,
+    "ebitda": null,
+    "finance_costs": 15470750,
+    "profit_before_tax": -52398350,
+    "total_debt": null,
+    "total_equity": 97149950
+  },
+  "prior_year_financials": {
+    "reporting_year": 2018,
+    "revenue": 75581395,
+    "audit_status": "Unaudited"
+  },
+  "data_quality": {
+    "completeness_score": 26.2,
+    "missing_fields": [
+      "total_debt",
+      "total_equity",
+      "operating_expenses"
+    ],
+    "reviewer_notes": "Critical fields missing. Cannot proceed to screening. Follow-up required."
+  },
+  "designated_contact": {
+    "role": "CEO"
+  },
+  "documents": {
+    "income_statement_ref": "annual_report_2019.pdf",
+    "balance_sheet_ref": "audited_accounts_2019.pdf",
+    "prior_year_accounts_ref": "annual_report_2018.pdf",
+    "registration_doc_ref": "certificate_of_incorporation.pdf"
+  },
+  "_meta": {
+    "archetype": "scale_up",
+    "years_operating": 10,
+    "submission_anomaly": false
+  }
+}
