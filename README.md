@@ -175,7 +175,7 @@ A company cannot be evaluated as investable on three out of four criteria. Each 
 
 ## Pipeline results
 
-![Pipeline conversion funnel](charts/chart_1_pipeline_funnel.png)
+![Pipeline conversion funnel](investment-readiness-screener/charts/chart_1_pipeline_funnel.png)
 
 **Pipeline attrition by gate:**
 
