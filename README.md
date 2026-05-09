@@ -1,7 +1,7 @@
 # Investment Readiness Screener — Project A
 
 **Operational insight, built on data.**
-Crystal Olisa · Operations Generalist · [LinkedIn](https://linkedin.com/in/crystalolisa) · [Portfolio](https://github.com/crystalolisa)
+Crystal Olisa · Operations Generalist · [Live Dashboard Link](https://crystalolisa.github.io/investment-readiness-screener/part2/dashboard.html) · [LinkedIn](https://linkedin.com/in/crystalolisa) 
 
 ---
 
