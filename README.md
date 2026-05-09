@@ -266,7 +266,7 @@ project_a/
 
 ## Notebook
 
-[Phase 3 Screening Notebook →](https://github.com/crystalolisa/investment-readiness-screener/blob/main/investment-readiness-screener/notebooks/investment_screener_v1.ipynb)
+[Analysis Notebook](https://crystalolisa.github.io/investment-readiness-screener/notebooks/investment_screener.html)
 
 ---
 
