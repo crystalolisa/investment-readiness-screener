@@ -1,4 +1,4 @@
-# Investment Readiness Screener
+# Investment Readiness Screener — Project A
 
 **Operational insight, built on data.**
 Crystal Olisa · Operations Generalist · [LinkedIn](https://linkedin.com/in/crystalolisa) · [Portfolio](https://github.com/crystalolisa)
@@ -34,21 +34,21 @@ Generated to reflect the realistic variance in submitted financials: strong comp
 
 ### 1. Pipeline conversion — what proportion is investable
 
-![Screening outcome distribution](investment_readiness_screener/charts/chart_1_screening_outcomes.png)
+![Screening outcome distribution](investment-readiness-screener/investment-readiness-screener/charts/chart_1_screening_outcomes.png)
 
 Across 50 companies, the screen produced: 7 Advance (14%), 40 Review (80%), 3 Decline (6%). The large Review pool is the operational finding — 80% of the pipeline requires analyst judgment, not a binary pass or fail. The screen doesn't eliminate that work. It organises it, so analysts know exactly which signal caused the Review flag before opening a single spreadsheet. The Advance rate at 14% reflects the threshold stringency — too high and the thresholds need tightening; too low and the sourcing criteria needs recalibrating.
 
 
 ### 2. Signal failure pattern — where the pipeline is breaking down
 
-![Signal failure breakdown](investment_readiness_screener/charts/chart_2_signal_failures.png)
+![Signal failure breakdown](investment-readiness-screener/investment-readiness-screener/charts/chart_2_signal_failures.png)
 
 EBITDA margin is the most common failure signal — 23 of 50 companies (46%) fell below the 15% efficiency floor. Revenue growth failed in 38% of cases. These two signals together tell a specific sourcing story: the pipeline is finding companies with revenue and manageable leverage, but operational efficiency is the consistent gap. That's not a data quality problem — it's a sourcing criteria problem. A pipeline that consistently fails on margin is pulling in companies too early in their efficiency curve.
 
 
 ### 3. EBITDA margin vs revenue — population shape
 
-![EBITDA vs revenue scatter](investment_readiness_screener/charts/chart_3_ebitda_vs_growth.png)
+![EBITDA vs revenue scatter](investment-readiness-screener/investment-readiness-screener/charts/chart_3_ebitda_vs_growth.png)
 
 The scatter shows where the investable companies cluster and whether the Review category is genuinely borderline or just failing on one specific signal. A pipeline concentrated in the lower-left quadrant (low revenue, low margin) is a sourcing problem. A pipeline with strong revenue but weak margin is an efficiency problem. The visual separates those two diagnoses in a way the summary table cannot.
 
@@ -87,7 +87,7 @@ The scatter shows where the investable companies cluster and whether the Review 
 ## Repo structure
 
 ```
-investment_readiness_screener/
+investment-readiness-screener/
 ├── README.md
 ├── notebooks/
 │   └── investment_screener.ipynb
