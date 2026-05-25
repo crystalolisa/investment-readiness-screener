@@ -1,9 +1,8 @@
-# Investment Readiness Screener
+# Investment Readiness Screener — Project A
 
 **Operational insight, built on data.**
 Crystal Olisa · Operations Generalist · [LinkedIn](https://linkedin.com/in/crystalolisa) · [Portfolio](https://github.com/crystalolisa)
 
----
 
 ## The business problem
 
@@ -11,7 +10,6 @@ When companies submit financials for investment consideration, someone has to re
 
 This project automates the first-pass screen. The same four signals, the same decision logic, applied systematically. What took 48 hours of manual review runs in seconds — with every decision traceable to a documented threshold. That shift moves analyst capacity from data extraction to the conversations that actually require judgment.
 
----
 
 ## Dataset
 
@@ -19,7 +17,6 @@ This project automates the first-pass screen. The same four signals, the same de
 
 Generated to reflect the realistic variance in submitted financials: strong companies that clear all four thresholds, borderline companies that fail on one or two signals, and weak companies that fail across the board. Sectors include Fintech, Agribusiness, Retail, Manufacturing, Energy, Logistics, and Healthcare. Countries span Nigeria, Kenya, Ghana, South Africa, Ethiopia, Rwanda, Tanzania, Uganda, Senegal, and Egypt.
 
----
 
 ## Screening thresholds
 
@@ -32,33 +29,29 @@ Generated to reflect the realistic variance in submitted financials: strong comp
 
 **Decision logic:** All four signals passed → **Advance**. Two or three signals passed → **Review**. Fewer than two → **Decline**.
 
----
 
 ## Findings
 
 ### 1. Pipeline conversion — what proportion is investable
 
-![Screening outcome distribution](project_a/charts/chart_1_screening_outcomes.png)
+![Screening outcome distribution](investment_readiness_screener/charts/chart_1_screening_outcomes.png)
 
 Across 50 companies, the screen produced: 7 Advance (14%), 40 Review (80%), 3 Decline (6%). The large Review pool is the operational finding — 80% of the pipeline requires analyst judgment, not a binary pass or fail. The screen doesn't eliminate that work. It organises it, so analysts know exactly which signal caused the Review flag before opening a single spreadsheet. The Advance rate at 14% reflects the threshold stringency — too high and the thresholds need tightening; too low and the sourcing criteria needs recalibrating.
 
----
 
 ### 2. Signal failure pattern — where the pipeline is breaking down
 
-![Signal failure breakdown](project_a/charts/chart_2_signal_failures.png)
+![Signal failure breakdown](investment_readiness_screener/charts/chart_2_signal_failures.png)
 
 EBITDA margin is the most common failure signal — 23 of 50 companies (46%) fell below the 15% efficiency floor. Revenue growth failed in 38% of cases. These two signals together tell a specific sourcing story: the pipeline is finding companies with revenue and manageable leverage, but operational efficiency is the consistent gap. That's not a data quality problem — it's a sourcing criteria problem. A pipeline that consistently fails on margin is pulling in companies too early in their efficiency curve.
 
----
 
 ### 3. EBITDA margin vs revenue — population shape
 
-![EBITDA vs revenue scatter](project_a/charts/chart_3_ebitda_vs_growth.png)
+![EBITDA vs revenue scatter](investment_readiness_screener/charts/chart_3_ebitda_vs_growth.png)
 
 The scatter shows where the investable companies cluster and whether the Review category is genuinely borderline or just failing on one specific signal. A pipeline concentrated in the lower-left quadrant (low revenue, low margin) is a sourcing problem. A pipeline with strong revenue but weak margin is an efficiency problem. The visual separates those two diagnoses in a way the summary table cannot.
 
----
 
 ## Analytical decisions
 
@@ -68,7 +61,6 @@ The scatter shows where the investable companies cluster and whether the Review 
 
 **Signal failure chart sorted by failure rate.** The sort order is not arbitrary — the chart is designed to answer "where is the pipeline breaking down most?" not "how are signals ordered alphabetically."
 
----
 
 ## Methodology
 
@@ -80,7 +72,6 @@ The scatter shows where the investable companies cluster and whether the Review 
 
 **Synthetic data note:** The dataset was generated to produce realistic variance across the three outcome categories. In a real workflow, the input data would be extracted from submitted PDFs or structured Excel submissions. The screening logic here is dataset-agnostic — it runs on any input that produces the same four columns.
 
----
 
 ## Metric glossary
 
@@ -92,12 +83,11 @@ The scatter shows where the investable companies cluster and whether the Review 
 
 **Advance / Review / Decline** — The three-tier output of the screening system. Advance = cleared all four thresholds. Review = cleared two or three. Decline = cleared fewer than two.
 
----
 
 ## Repo structure
 
 ```
-project_a/
+investment_readiness_screener/
 ├── README.md
 ├── notebooks/
 │   └── investment_screener.ipynb
@@ -110,7 +100,6 @@ project_a/
     └── chart_3_ebitda_vs_growth.png
 ```
 
----
 
 ## Key outputs
 
@@ -120,12 +109,10 @@ project_a/
 - Full screening results table with per-signal flags (exported to `screening_results.csv`)
 - Sector and country breakdown of screening outcomes
 
----
 
 ## Notebook
 
 [Project A Notebook →](notebooks/investment_screener.ipynb)
 
----
 
 *The screen does not replace the investment conversation. It makes the right conversations possible faster.*
