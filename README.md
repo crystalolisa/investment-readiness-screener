@@ -3,7 +3,7 @@
 **Operational insight, built on data.**
 Crystal Olisa · Operations Generalist · [Live Dashboard Link](https://crystalolisa.github.io/investment-readiness-screener/part2/dashboard.html) · [LinkedIn](https://linkedin.com/in/crystalolisa) 
 
----
+
 
 ## The business problem
 
@@ -15,7 +15,7 @@ The screening decision itself was fast. The bottleneck was everything before it 
 
 This project automates that layer. Not just the screen - the full pipeline, from structured intake form to validated investment flag, with every decision documented and every threshold adjustable. The same 75–125 hours of extraction work runs in under 10 seconds.
 
----
+
 
 ## Project architecture
 
@@ -29,7 +29,7 @@ This is a three-phase pipeline. Each phase has a distinct responsibility.
 
 The three phases are deliberately separated. Phase 1 is data generation. Phase 2 is validation and standardisation. Phase 3 is analysis. Combining them into a single script would produce a cleaner file count but would collapse the distinction between a data quality problem and a screening decision - which are operationally different things that require different follow-up actions.
 
----
+
 
 ## Source data and calibration
 
@@ -64,7 +64,7 @@ The finance constraint median (33.1%) is used as a proxy for submission quality 
 | Validated | 85–100 | All fields present and reconciled |
 | Partial | 55–80 | One or two non-critical fields missing - mirrors WB 33% finance constraint rate |
 
----
+
 
 ## Synthetic data design
 
@@ -87,7 +87,7 @@ Note: 9 additional companies were deferred at Gate 3 - generated as non-Deferred
 
 **Currency realism:** Revenue is generated in local currency (NGN, KES, GHS, ZAR, ETB, RWF, TZS, UGX, XOF, EGP) and converted to USD using historical exchange rates embedded in each JSON profile. The conversion chain is preserved in the master CSV so every USD figure is auditable back to its local currency source.
 
----
+
 
 ## Submission form schema
 
@@ -115,7 +115,7 @@ Prior year revenue is captured as a submitted field, not a growth rate. The pipe
 
 EBITDA is submitted but also cross-checked against components (gross profit minus operating expenses) in Gate 4. The two values should agree within 5%. A larger variance flags the submission for reviewer check before the figure is used in a screening decision.
 
----
+
 
 ## Pipeline gate logic
 
@@ -148,7 +148,7 @@ Action: Convert local currency to USD millions. Calculate EBITDA margin, YoY gro
 
 In a live environment, each gate would trigger a distinct downstream action. Gate 1 and Gate 3 deferrals would generate an automated notification to the founder with their resubmission eligibility date and the specific reason for deferral. Gate 2 anomaly flags would create an internal reviewer task with the duplicate document details attached - no founder notification. Gate 4 EBITDA reconciliation flags would create a reviewer task with the variance figure. Gate 5 completions would update the company's pipeline stage automatically. The gate logic here is the decision layer. The operational layer - CRM workflow routing, automated notifications, reviewer task creation - sits on top of it.
 
----
+
 
 ## Screening criteria
 
@@ -171,7 +171,7 @@ A company cannot be evaluated as investable on three out of four criteria. Each 
 **One internal flag (never shown to founders):**
 - **⚑ Submission Anomaly** - duplicate document references + unaudited or management accounts status
 
----
+
 
 ## Pipeline results
 
@@ -201,7 +201,7 @@ A company cannot be evaluated as investable on three out of four criteria. Each 
 
 5 companies had EBITDA reconciliation notes at Gate 4 and proceeded to screening with the variance noted.
 
----
+
 
 ## Analytical decisions
 
@@ -216,7 +216,7 @@ A company cannot be evaluated as investable on three out of four criteria. Each 
 | Deferred over Declined for history failures | A company with insufficient operating or financial history isn't wrong - it's early. Deferred preserves the relationship and gives a concrete resubmission path. |
 | Submission Anomaly internal only | You don't tell a founder they're flagged for submission irregularities. A human reviews the evidence and decides the next action. |
 
----
+
 
 ## Repo structure
 
@@ -247,7 +247,7 @@ project_a/
     └── chart_4_pipeline_health.png
 ```
 
----
+
 
 ## Key outputs
 
@@ -262,12 +262,12 @@ project_a/
 - `part2/dashboard.html` - internal team view, all 100 companies, filterable, full detail on click
 - `part2/founder_reports/` - 100 individual founder reports, one per submission, tailored by outcome
 
----
+
 
 ## Notebook
 
 [Analysis Notebook](https://crystalolisa.github.io/investment-readiness-screener/notebooks/investment_screener.html)
 
----
+
 
 *The pipeline does not replace the investment conversation. It makes the right conversations possible faster.*
